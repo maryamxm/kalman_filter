@@ -18,8 +18,7 @@ setup(
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='Maryam Mosadegh',
-    maintainer_email='maryamxmosadegh@yahoo.com',
+    maintainer='Your Name',
     description=(
         'Standalone ROS2 recreation of the B31YS Kalman filter assignment'
     ),
