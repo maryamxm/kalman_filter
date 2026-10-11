@@ -2,6 +2,8 @@
 
 A ROS2 recreation of my B31YS (Robotic Systems) coursework at Heriot-Watt University, originally developed and run on The Construct's ROS1 cloud platform. This repo ports the assignment to run locally on ROS2, with an added feature for selecting different robot motion patterns at launch.
 
+note to me: if you want to make it public, first clean up everything and any trace of the assignment
+
 ## What this is
 
 Three ROS2 nodes simulating a mobile robot and estimating its position with a Kalman filter:
