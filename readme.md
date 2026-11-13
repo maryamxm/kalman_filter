@@ -7,10 +7,10 @@ A ROS2 recreation of my B31YS (Robotic Systems) coursework at Heriot-Watt Univer
 Three ROS2 nodes simulating a mobile robot and estimating its position with a Kalman filter:
 
 - **`student_trajectory`** — drives a simulated robot along a chosen motion pattern (circle, square, figure-8, curvy line, or spiral) and publishes ground-truth odometry on `/odom`.
-- **`fake_gps`** — takes the true position and publishes a noisy GPS-style estimate on `/gps`, simulating real-world sensor noise.
+- **`fake_gps`** — takes the true position and publishes a noisy GPS-style estimate on `/fake_gps`, simulating real-world sensor noise.
 - **`kalman_filter`** — fuses the motion model and noisy GPS readings to produce a smoothed position estimate on `/kalman_estimate`.
 
-RViz2 visualizes all three: ground truth, raw noisy GPS, and the filtered estimate.
+RViz2 visualizes ground truth and the filtered estimate.
 
 ## Requirements
 
